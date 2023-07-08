@@ -1,0 +1,14 @@
+.DS_Store
+
+# Typescript
+node_modules/
+dist/
+build/
+
+# Python artifacts
+__pycache__/
+*.py[cod]
+
+# Rust artifacts
+target/
+
