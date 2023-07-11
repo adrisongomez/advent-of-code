@@ -3,6 +3,10 @@
     }) {} }:
 pkgs.mkShell {
   packages = [
+      pkgs.darwin.apple_sdk.frameworks.Security 
+      pkgs.pkgconfig 
+      pkgs.openssl
+
       # python
       pkgs.python3
       pkgs.python3Packages.pip
